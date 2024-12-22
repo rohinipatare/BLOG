@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevBlog</title>
+
+  <!--   
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  
+  <!-- 
+    - Custom CSS Links
+  -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="light-theme">
+
+  <!--   
+    #HEADER 
+    -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="#"><img src="./images/logo-light.svg" alt="Devblog's logo" width="150" class="logo-light">
+        <img src="./images/logo-dark.svg" alt="Devblog's logo" width="150" class="logo-dark"></a>
+          
+      <div class="btn-group">
+        <button class="theme-btn theme-btn-mobile light">
+          <img src="./images/moon.svg" alt="switch to dark theme" class="moon">
+          <img src="./images/sun.svg" alt="switch to light theme" class="sun">
+        </button>
+
+        <button class="nav-menu-btn">
+          <img src="./images/menu.svg" alt="menu" class="menu">
+        </button>
+      </div>
+      
+      <div class="flex-wrapper">
+
+        <ul class="desktop-nav">
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="#" class="nav-link">About Me</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="theme-btn theme-btn-desktop light">
+          <img src="./images/moon.svg" alt="switch to dark theme" class="moon">
+          <img src="./images/sun.svg" alt="switch to light theme" class="sun">
+        </button>
+
+      </div>
+
+      <div class="mobile-nav">
+        <button class="nav-close-button">
+          <img src="./images/close-square.svg" alt="switch to dark theme" class="moon">
+        </button>
+
+        <div class="wrapper">
+          <p class="h3 nav-title">Main menu</p>
+          <ul>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="h3 nav-title">Topics</p>
+          <ul>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Database</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Accessibility</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Web Performance</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+
+    </div>
+  </header>
+
+<!-- #MAIN SECTION -->
+  <main>
+    <div class="hero">
+      <div class="container">
+        <div class="left">
+          <h1 class="h1">Hi, I'm <b>Rohini&nbsp;Patare</b>.
+          <br>Blockchain Devloper
+          </h1>
+          <p class="h3">
+            Specialized in <abbr title="Accesibility">Solidity & Solana Devlopment</abbr>
+            along with Core Web Vitals
+          </p>
+          <div class="btn-group">
+            <a href="" class="btn btn-primary">Contact Me</a>
+            <a href="" class="btn btn-secondary">About Me</a>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./images/avatar.png" alt="" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+
+        <!-- Blog Section -->
+        <div class="blog">
+          <h2 class="h2">Latest Blog Post</h2>
+            <div class="blog-card-group">
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./images/blog-1.png" alt="Building Microservices with Dropwizard, MongoDB & Docker" width="250"
+                    class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+                  <h3><a href="#" class="h3">Building Microservices with Dropwizard, MongoDB & Docker</a></h3>
+                  <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur voluptates?
+                    Ratione, deserunt temporibus. Consequatur rem veritatis maxime impedit quos fugiat.</p>
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img src="./images/avatar.png" alt="rohini patare" width="50">
+                    </div>
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rohini Patare</a>
+                      <p class="text-sm">
+                        <time datetime="2022-12-20">Dec 25, 2022</time>
+                        <span class="saperator"></span>
+                        <img src="./images/clock-1.svg" alt="clock" class="clock">
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./images/blog-2.png" alt="Building Microservices with Dropwizard, MongoDB & Docker" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+                  <h3><a href="#" class="h3">Building Microservices with Dropwizard, MongoDB & Docker</a></h3>
+                  <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur voluptates? Ratione, deserunt temporibus. Consequatur rem veritatis maxime impedit quos fugiat.</p>
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img src="./images/avatar.png" alt="rohini patare" width="50">
+                    </div>
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rohini Patare</a>
+                      <p class="text-sm">
+                        <time datetime="2022-12-20">Dec 25, 2022</time>
+                        <span class="saperator"></span>
+                        <img src="./images/clock-1.svg" alt="clock" class="clock">
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./images/blog-3.png" alt="Building Microservices with Dropwizard, MongoDB & Docker" width="250"
+                    class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+                  <h3><a href="#" class="h3">Building Microservices with Dropwizard, MongoDB & Docker</a></h3>
+                  <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur voluptates?
+                    Ratione, deserunt temporibus. Consequatur rem veritatis maxime impedit quos fugiat</p>
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img src="./images/avatar.png" alt="rohini patare" width="50">
+                    </div>
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rohini Patare</a>
+                      <p class="text-sm">
+                        <time datetime="2022-12-20">Dec 25, 2022</time>
+                        <span class="saperator"></span>
+                        <img src="./images/clock-1.svg" alt="clock" class="clock">
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>              
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./images/blog-4.png" alt="Building Microservices with Dropwizard, MongoDB & Docker" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+                  <h3><a href="#" class="h3">Building Microservices with Dropwizard, MongoDB & Docker</a></h3>
+                  <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur voluptates? Ratione, deserunt temporibus. Consequatur rem veritatis maxime impedit quos fugiat.</p>
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img src="./images/avatar.png" alt="rohini patare" width="50">
+                    </div>
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rohini Patare</a>
+                      <p class="text-sm">
+                        <time datetime="2022-12-20">Dec 25, 2022</time>
+                        <span class="saperator"></span>
+                        <img src="./images/clock-1.svg" alt="clock" class="clock">
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>              
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./images/blog-5.png" alt="Building Microservices with Dropwizard, MongoDB & Docker" width="250"
+                    class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+                  <h3><a href="#" class="h3">Building Microservices with Dropwizard, MongoDB & Docker</a></h3>
+                  <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur voluptates?
+                    Ratione, deserunt temporibus. Consequatur rem veritatis maxime impedit quos fugiat.</p>
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img src="./images/avatar.png" alt="rohini patare" width="50">
+                    </div>
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rohini Patare</a>
+                      <p class="text-sm">
+                        <time datetime="2022-12-20">Dec 25, 2022</time>
+                        <span class="saperator"></span>
+                        <img src="./images/clock-1.svg" alt="clock" class="clock">
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./images/blog-6.png" alt="Building Microservices with Dropwizard, MongoDB & Docker" width="250"
+                    class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+                  <h3><a href="#" class="h3">Building Microservices with Dropwizard, MongoDB & Docker</a></h3>
+                  <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur voluptates?
+                    Ratione, deserunt temporibus. Consequatur rem veritatis maxime impedit quos fugiat.</p>
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img src="./images/avatar.png" alt="rohini patare" width="50">
+                    </div>
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rohini Patare</a>
+                      <p class="text-sm">
+                        <time datetime="2022-12-20">Dec 25, 2022</time>
+                        <span class="saperator"></span>
+                        <img src="./images/clock-1.svg" alt="clock" class="clock">
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./images/blog-7.png" alt="Building Microservices with Dropwizard, MongoDB & Docker" width="250"
+                    class="blog-banner-img">
+                </div>
+
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+                  <h3><a href="#" class="h3">Building Microservices with Dropwizard, MongoDB & Docker</a></h3>
+                  <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur voluptates?
+                    Ratione, deserunt temporibus. Consequatur rem veritatis maxime impedit quos fugiat.</p>
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img src="./images/avatar.png" alt="rohini patare" width="50">
+                    </div>
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rohini Patare</a>
+                      <p class="text-sm">
+                        <time datetime="2022-12-20">Dec 25, 2022</time>
+                        <span class="saperator"></span>
+                        <img src="./images/clock-1.svg" alt="clock" class="clock">
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./images/blog-8.png" alt="Building Microservices with Dropwizard, MongoDB & Docker" width="250"
+                    class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+                  <h3><a href="#" class="h3">Building Microservices with Dropwizard, MongoDB & Docker</a></h3>
+                  <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur voluptates?
+                    Ratione, deserunt temporibus. Consequatur rem veritatis maxime impedit quos fugiat.</p>
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img src="./images/avatar.png" alt="rohini patare" width="50">
+                    </div>
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rohini Patare</a>
+                      <p class="text-sm">
+                        <time datetime="2022-12-20">Dec 25, 2022</time>
+                        <span class="saperator"></span>
+                        <img src="./images/clock-1.svg" alt="clock" class="clock">
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>              
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./images/blog-9.png" alt="Building Microservices with Dropwizard, MongoDB & Docker" width="250"
+                    class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+                  <h3><a href="#" class="h3">Building Microservices with Dropwizard, MongoDB & Docker</a></h3>
+              
+                  <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur voluptates?
+                    Ratione, deserunt temporibus. Consequatur rem veritatis maxime impedit quos fugiat.</p>
+              
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img src="./images/avatar.png" alt="rohini patare" width="50">
+                    </div>
+              
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rohini Patare</a>
+              
+                      <p class="text-sm">
+                        <time datetime="2022-12-20">Dec 25, 2022</time>
+                        <span class="saperator"></span>
+                        <img src="./images/clock-1.svg" alt="clock" class="clock">
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+              
+                    </div>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img src="./images/blog-10.png" alt="Building Microservices with Dropwizard, MongoDB & Docker" width="250"
+                    class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+                  <h3><a href="#" class="h3">Building Microservices with Dropwizard, MongoDB & Docker</a></h3>
+              
+                  <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur voluptates?
+                    Ratione, deserunt temporibus. Consequatur rem veritatis maxime impedit quos fugiat.</p>
+              
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img src="./images/avatar.png" alt="rohini patare" width="50">
+                    </div>
+              
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rohini Patare</a>
+              
+                      <p class="text-sm">
+                        <time datetime="2022-12-20">Dec 25, 2022</time>
+                        <span class="saperator"></span>
+                        <img src="./images/clock-1.svg" alt="clock" class="clock">
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+              
+                    </div>
+                  </div>
+              
+                </div>
+              
+              </div>
+              
+ 
+            </div>
+
+            <button class="btn load-more">Load More</button>
+            
+        </div>
+
+        <div class="aside">
+
+          <div class="topics">
+            <h2 class="h2">Topics</h2>
+            <a href="" class="topic-btn">
+              <div class="icon-box">
+                <img src="./images/menu.svg" alt="">
+              </div>
+              <p>Database</p>
+            </a>
+
+            <a href="" class="topic-btn">
+              <div class="icon-box">
+                <img src="./images/chrome.svg" alt="">
+              </div>
+              <p>Web Performance</p>
+            </a>
+
+            <a href="" class="topic-btn">
+              <div class="icon-box">
+                <img src="./images/export-2.svg" alt="">
+              </div>
+              <p>Accesibility</p>
+            </a>
+          </div>
+
+          <div class="tags">
+            <h2 class="h2">Tags</h2>
+            <div class="wrapper">
+              <button class="hashtag">#mongodb</button>
+              <button class="hashtag">#nodejs</button>
+              <button class="hashtag">#DB</button>
+              <button class="hashtag">#frontend</button>
+              <button class="hashtag">#aptitude</button>
+              <button class="hashtag">#mysql</button>
+              <button class="hashtag">#javascript</button>
+              <button class="hashtag">#linux</button>
+
+            </div>
+          </div>
+
+          <div class="contact">
+            <h2 class="h2">Let's talk</h2>
+            <div class="wrapper">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat sapiente esse voluptates dolorum ullam ea hic quia suscipit earum repreh assumenda, nobis debitis ducimus </p>
+
+              <ul class="social-links">
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <img src="./images/cpu.svg" alt="discord">
+                  </a></li>
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <img src="./images/monitor-recorder.svg" alt="twitter">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <img src="./images/trend-up.svg" alt="facebook">
+                  </a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="newsletter">
+            <h2 class="h2">Newsletter</h2>
+            <div class="wrapper">
+              <p>subscribe Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam quia amet repellat adipisci. Porro minus sequi debitis magnam.</p>
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container11">
+        <div class="content">
+          <div class="left-side">
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic"> <a href="mailto:examplemail@gmail.com" target="_blank">Email</a></div>
+              <div class="text-one">rohinipatare00@gmail.com</div>
+            </div>
+            <div class="phone details">
+              <i class="fa-brands fa-linkedin"></i>
+              <div class="topic"><a href="https://www.linkedin.com/in/rohinipatare" target="_blank">Linkedin</a></div>
+              <!-- <div><p><a href="https://www.linkedin.com/in/rohinipatare">LinkedIn</a></p></div> -->
+            </div>
+            
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>If you have any work from me or any types of quries related to my blog, you can send me message from here. It's my pleasure to help you.</p>
+            <form action="#">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name" />
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Enter your email" />
+              </div>
+              <div class="input-box message-box">
+                <textarea placeholder="Enter your message"></textarea>
+              </div>
+              <div class="button">
+                <input type="button" value="Send Now" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  
+  </main>
+
+
+<!-- #FOOTER -->
+
+<footer>
+    <div class="container">
+      <div class="wrapper">
+        <a href="#" class="footer-logo">
+          <img src="./images/logo-light.svg" alt="Devblog's logo" width="150" class="logo-light">
+          <img src="./images/logo-dark.svg" alt="Devblog's logo"
+          width="150" class="logo-dark">
+        </a>
+        <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur </p>
+      </div>
+      <div class="wrapper">
+        <p class="footer-title">Quick Links</p>
+        <ul>
+          <li><a href="#" class="footer-link">Advertise with Us</a></li>
+          <li><a href="#" class="footer-link">About Us</a></li>
+          <li><a href="#" class="footer-link">Contact Us</a></li>
+        </ul>
+      </div>
+ 
+      <div class="wrapper">
+        <p class="footer-title">Legal Stuff</p>
+        <ul>
+          <li><a href="#" class="footer-link">Privacy Notice</a></li>
+          <li><a href="#" class="footer-link">Cookie Policy</a></li>
+          <li><a href="#" class="footer-link">Terms Of use</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <p class="copyright">
+      &copy; Copyright 2022 <a href="#">DevBlog</a>
+    </p>
+  </footer>
+
+
+
+  <!-- 
+    - Custom JS Links
+  -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
